@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating dyros_python.egg-info
+writing dyros_python.egg-info/PKG-INFO
+writing dependency_links to dyros_python.egg-info/dependency_links.txt
+writing entry points to dyros_python.egg-info/entry_points.txt
+writing requirements to dyros_python.egg-info/requires.txt
+writing top-level names to dyros_python.egg-info/top_level.txt
+writing manifest file 'dyros_python.egg-info/SOURCES.txt'
+reading manifest file 'dyros_python.egg-info/SOURCES.txt'
+writing manifest file 'dyros_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/system/ros2_ws/install/dyros_python/lib/python3.10/site-packages/dyros-python.egg-link (link to .)
+
+Installed /home/system/ros2_ws/build/dyros_python
+running symlink_data
+creating /home/system/ros2_ws/install/dyros_python/share/ament_index
+creating /home/system/ros2_ws/install/dyros_python/share/ament_index/resource_index
+creating /home/system/ros2_ws/install/dyros_python/share/ament_index/resource_index/packages
+symbolically linking /home/system/ros2_ws/build/dyros_python/resource/dyros_python -> /home/system/ros2_ws/install/dyros_python/share/ament_index/resource_index/packages
+symbolically linking /home/system/ros2_ws/build/dyros_python/package.xml -> /home/system/ros2_ws/install/dyros_python/share/dyros_python

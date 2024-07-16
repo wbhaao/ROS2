@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+dyros_python/__init__.py
+dyros_python.egg-info/PKG-INFO
+dyros_python.egg-info/SOURCES.txt
+dyros_python.egg-info/dependency_links.txt
+dyros_python.egg-info/entry_points.txt
+dyros_python.egg-info/requires.txt
+dyros_python.egg-info/top_level.txt
+dyros_python.egg-info/zip-safe
+resource/dyros_python

@@ -1,0 +1,73 @@
+[0.006s] Invoking command in '/home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/system/ros2_ws/src/dyros_cmake -DCMAKE_INSTALL_PREFIX=/home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.209s] -- Detecting CXX compile features - done
+[0.212s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.371s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.374s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.413s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.424s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.501s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.503s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.569s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.586s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.622s] -- Looking for pthread.h
+[0.671s] -- Looking for pthread.h - found
+[0.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.715s] -- Found Threads: TRUE  
+[0.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.878s] -- Configured cppcheck include dirs: /home/system/ros2_ws/src/dyros_cmake/include
+[0.878s] -- Configured cppcheck exclude dirs and/or files: 
+[0.879s] -- Added test 'lint_cmake' to check CMake code style
+[0.881s] -- Added test 'uncrustify' to check C / C++ code style
+[0.881s] -- Configured uncrustify additional arguments: 
+[0.882s] -- Added test 'xmllint' to check XML markup files
+[0.883s] -- Configuring done
+[0.889s] -- Generating done
+[0.890s] -- Build files have been written to: /home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake
+[0.896s] Invoked command in '/home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/system/ros2_ws/src/dyros_cmake -DCMAKE_INSTALL_PREFIX=/home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake
+[0.898s] Invoking command in '/home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake -- -j16 -l16
+[0.929s] [ 50%] [32mBuilding CXX object CMakeFiles/dyros_cpp_pub.dir/src/dyros_cpp_pub.cpp.o[0m
+[0.929s] [ 50%] [32mBuilding CXX object CMakeFiles/dyros_cpp_sub.dir/src/dyros_cpp_sub.cpp.o[0m
+[3.702s] [ 75%] [32m[1mLinking CXX executable dyros_cpp_pub[0m
+[3.846s] [ 75%] Built target dyros_cpp_pub
+[5.912s] [100%] [32m[1mLinking CXX executable dyros_cpp_sub[0m
+[6.135s] [100%] Built target dyros_cpp_sub
+[6.147s] Invoked command in '/home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake -- -j16 -l16
+[6.175s] Invoking command in '/home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake
+[6.181s] -- Install configuration: ""
+[6.181s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub
+[6.181s] -- Set runtime path of "/home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_pub" to ""
+[6.182s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub
+[6.184s] -- Set runtime path of "/home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/lib/dyros_cmake/dyros_cpp_sub" to ""
+[6.184s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/ament_index/resource_index/package_run_dependencies/dyros_cmake
+[6.184s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/ament_index/resource_index/parent_prefix_path/dyros_cmake
+[6.184s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.sh
+[6.184s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/environment/ament_prefix_path.dsv
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/environment/path.sh
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/environment/path.dsv
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/local_setup.bash
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/local_setup.sh
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/local_setup.zsh
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/local_setup.dsv
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/package.dsv
+[6.185s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/ament_index/resource_index/packages/dyros_cmake
+[6.186s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig.cmake
+[6.186s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/cmake/dyros_cmakeConfig-version.cmake
+[6.186s] -- Installing: /home/system/ros2_ws/src/dyros_cmake/install/dyros_cmake/share/dyros_cmake/package.xml
+[6.187s] Invoked command in '/home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/system/ros2_ws/src/dyros_cmake/build/dyros_cmake

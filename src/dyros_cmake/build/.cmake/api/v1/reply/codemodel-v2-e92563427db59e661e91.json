@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ea8a0b3a9e3b4190583f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dyros_cmake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dyros_cmake_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dyros_cmake_uninstall-Debug-da1d3b44dfa0be647667.json",
+					"name" : "dyros_cmake_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dyros_cpp_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dyros_cpp_pub-Debug-6ee0df6e9e432316b8f9.json",
+					"name" : "dyros_cpp_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dyros_cpp_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dyros_cpp_sub-Debug-10f8781c9a3dd3c0f485.json",
+					"name" : "dyros_cpp_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-34cb0b929dfdbe607094.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/system/ros2_ws/src/dyros_cmake/build",
+		"source" : "/home/system/ros2_ws/src/dyros_cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
